@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Favicon and Touch Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>{{TITLE}} | TMD Blog</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="author" content="Tesla Mechanical Designs">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{TITLE}} | TMD Blog">
+    <meta property="og:description" content="{{DESCRIPTION}}">
+    <!-- Using BANNER placeholder for og:image if available, otherwise fallback to default -->
+    <meta property="og:image" content="{{BANNER}}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="{{TITLE}} | TMD Blog">
+    <meta property="twitter:description" content="{{DESCRIPTION}}">
+    <meta property="twitter:image" content="{{BANNER}}">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 5%;
+            color: #ddd;
+        }
+
+        .article-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .article-meta {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .article-body {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .article-body h2 {
+            margin-top: 2.5rem;
+            color: #fff;
+            font-size: 1.8rem;
+        }
+
+        .article-body p {
+            margin-bottom: 1.5rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #888;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+
+        .article-banner {
+            width: 100%;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #333;
+            /* Fallback/Placeholder color */
+        }
+
+        .article-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav>
+        <div class="logo"><a href="../index.html">TMD <span style="color:var(--primary-color)">RE</span></a></div>
+        <ul class="nav-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#faq">FAQ</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="article-content">
+        <a href="../blog.html" class="back-link">&larr; Back to Blog</a>
+
+        <header>
+            <h1>{{TITLE}}</h1>
+            <div class="article-meta">
+                <span><i class="far fa-calendar"></i> {{DATE}}</span> &bull;
+                <span><i class="far fa-user"></i> TMD Editorial</span>
+            </div>
+        </header>
+
+        <div class="article-banner">
+            <img src="{{BANNER}}" alt="Article Banner">
+        </div>
+
+        <div class="article-body">
+            {{CONTENT}}
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Tesla Mechanical Designs</h4>
+                <p>Global leader in Engineering Design Services.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="../index.html#services">Reverse Engineering</a></li>
+                    <li><a href="../index.html#services">3D Modeling</a></li>
+                    <li><a href="../index.html#services">CFD Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Email: projects@teslamechanicaldesigns.com</p>
+                <div class="social-links" style="margin-top: 1rem;">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Tesla Mechanical Designs. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Engineering 101: A Comprehensive Guide | TMD</title>
+    <meta name="description"
+        content="A comprehensive guide to Reverse Engineering: from scanning and point clouds to parametric CAD modeling and quality inspection.">
+    <meta name="keywords"
+        content="Reverse Engineering Guide, 3D Scanning, CAD Modeling, Legacy Parts, Engineering Workflow">
+    <meta name="author" content="Tesla Mechanical Designs">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Reverse Engineering 101: A Comprehensive Guide | TMD">
+    <meta property="og:description"
+        content="A comprehensive guide to Reverse Engineering: from scanning and point clouds to parametric CAD modeling.">
+    <meta property="og:image" content="../images/reverse-engineering-banner.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Reverse Engineering 101: A Comprehensive Guide | TMD">
+    <meta property="twitter:description"
+        content="A comprehensive guide to Reverse Engineering: from scanning and point clouds to parametric CAD modeling.">
+    <meta property="twitter:image" content="../images/reverse-engineering-banner.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 5%;
+            color: #ddd;
+        }
+
+        .article-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .article-meta {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .article-banner {
+            width: 100%;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .article-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .article-body {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .article-body h2 {
+            margin-top: 2.5rem;
+            color: #fff;
+            font-size: 1.8rem;
+        }
+
+        .article-body h3 {
+            margin-top: 1.5rem;
+            color: #eee;
+            font-size: 1.4rem;
+        }
+
+        .article-body p {
+            margin-bottom: 1.5rem;
+        }
+
+        .article-body a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .article-body a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #888;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><a href="../index.html">TMD <span style="color:var(--primary-color)">RE</span></a></div>
+        <ul class="nav-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#process">Process</a></li>
+            <li><a href="../index.html#faq">FAQ</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="article-content">
+        <a href="../blog.html" class="back-link">&larr; Back to Blog</a>
+
+        <header>
+            <h1>Reverse Engineering 101: A Comprehensive Guide</h1>
+            <div class="article-meta">
+                <span><i class="far fa-calendar"></i> February 5, 2026</span> &bull;
+                <span><i class="far fa-user"></i> TMD Editorial</span>
+            </div>
+        </header>
+
+        <div class="article-banner">
+            <img src="../images/reverse-engineering-banner.png" alt="Reverse Engineering Visualization Banner">
+        </div>
+
+        <div class="article-body">
+            <p>Reverse engineering is often misunderstood as simply "copying" a product. In reality, it is a
+                sophisticated engineering discipline that involves analyzing a subject system to identify its components
+                and their interrelationships, and then creating representations of the system at a higher level of
+                abstraction. In the world of mechanical design and manufacturing, it plays a pivotal role in innovation,
+                legacy maintenance, and quality assurance.</p>
+
+            <h2>The Core Purpose: Why Do We Reverse Engineer?</h2>
+            <p>The primary goal is usually to understand the internal workings of a product, but the applications are
+                vast. Here are the most common scenarios where Reverse Engineering (RE) is indispensable:</p>
+            <ul>
+                <li><strong>Legacy Parts Reconstruction:</strong> When original blueprints or CAD files are lost, RE
+                    allows us to recreate precise models for manufacturing. This is critical in the automotive
+                    restoration and aerospace maintenance sectors.</li>
+                <li><strong>Competitor Benchmarking:</strong> Manufacturers analyze competitor products to understand
+                    their strengths and weaknesses, enabling them to innovate upon existing designs.</li>
+                <li><strong>Product improvement:</strong> RE reveals design flaws in existing products. By digitizing a
+                    component, engineers can run Finite Element Analysis (FEA) to detect stress points and optimize the
+                    geometry for better performance.</li>
+                <li><strong>Digital Archiving:</strong> Creating a digital twin of physical assets ensures that a design
+                    is never truly lost, preserving it for future reference or manufacturing.</li>
+            </ul>
+
+            <h2>The Modern Workflow</h2>
+            <p>At Tesla Mechanical Designs, our reverse engineering workflow leverages cutting-edge technology to ensure
+                micron-level precision. The process can be broken down into four key stages:</p>
+
+            <h3>1. Data Acquisition (3D Scanning)</h3>
+            <p>The process begins with digitizing the physical object. We utilize advanced <strong>laser
+                    scanners</strong> and <strong>structured light scanners</strong>. These devices project a pattern of
+                light onto the object and use cameras to capture the deformation of that pattern, calculating the 3D
+                coordinates of millions of points on the surface. This generates a "Point Cloud"—a raw data set
+                representing the object's geometry.</p>
+
+            <h3>2. Data Processing</h3>
+            <p>Raw point cloud data is often noisy. Using specialized software associated with our metrology equipment,
+                we clean the data, align multiple scans, and merge them into a unified polygon mesh (typically an STL
+                file). This mesh is a "dumb" solid—it looks like the part, but it lacks the mathematical intelligence of
+                a CAD model.</p>
+
+            <h3>3. Parametric Modeling</h3>
+            <p>This is where the true engineering expertise comes in. We don't just auto-surface the mesh, which results
+                in uneditable "nurbs" patches. Instead, our engineers use the mesh as a reference sketch. We extract
+                geometric features—planes, cylinders, holes, and freeform surfaces—to build a native, history-based
+                parametric CAD model (in SolidWorks, CATIA, or NX). This model is fully editable, meaning dimensions can
+                be adjusted, and features can be suppressed or modified.</p>
+
+            <h3>4. Validation and Quality Control</h3>
+            <p>Before delivery, the new CAD model is superimposed over the original scan data. A deviation color map is
+                generated to visualize the accuracy. Any areas exceeding the specified tolerance (often as tight as +/-
+                0.05mm) are flagged and corrected, ensuring the digital twin is a perfect representation of the physical
+                reality.</p>
+
+            <h2>The Future of Reverse Engineering</h2>
+            <p>As AI and machine learning continue to evolve, the RE process is becoming more automated. Algorithms are
+                beginning to recognize standard engineering features (like screws, gears, and fillets) automatically
+                from scan data, speeding up the modeling phase. However, the human element—the engineer's intent—remains
+                crucial. Understanding <em>why</em> a fillet is there, or <em>why</em> a wall thickness varies, requires
+                engineering judgment that AI cannot yet fully replicate.</p>
+
+            <p>From keeping vintage cars on the road to helping startups iterate on prototypes, reverse engineering
+                bridges the gap between the physical and digital worlds, driving manufacturing forward into a new era of
+                precision and efficiency.</p>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Tesla Mechanical Designs</h4>
+                <p>Global leader in Engineering Design Services.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="../index.html#services">Reverse Engineering</a></li>
+                    <li><a href="../index.html#services">3D Modeling</a></li>
+                    <li><a href="../index.html#services">CFD Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Email: projects@teslamechanicaldesigns.com</p>
+                <div class="social-links" style="margin-top: 1rem;">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Tesla Mechanical Designs. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
