@@ -1,8 +1,19 @@
 [
-    {
-        "title": "Reverse Engineering 101: A Comprehensive Guide",
-        "url": "posts/reverse-engineering-101.html",
-        "date": "February 5, 2026",
-        "excerpt": "Discover the sophisticated process of analyzing systems to create high-level representations. Learn how we bridge the physical and digital worlds."
-    }
+  {
+    "id": 2,
+    "url": "posts/reviving-obsolete-reverse-engineering-legacy-machinery-ae.html",
+    "title": "Reviving the Obsolete: The Ultimate Guide to Reverse Engineering in A/E for Legacy Machinery Preservation",
+    "description": "Click to read more about Reviving the Obsolete: The Ultimate Guide to Reverse Engineering in A/E for Legacy Machinery Preservation",
+    "image": "https://image.pollinations.ai/prompt/Reviving%20the%20Obsolete%3A%20The%20Ultimate%20Guide%20to%20Reverse%20Engineering%20in%20A%2FE%20for%20Legacy%20Machinery%20Preservation%20industrial%20engineering%20structure%208k?width=1280&height=720&nologo=true",
+    "date": "February 5, 2026",
+    "tags": [
+      "Technology"
+    ]
+  },
+  {
+    "title": "Reverse Engineering 101: A Comprehensive Guide",
+    "url": "posts/reverse-engineering-101.html",
+    "date": "February 5, 2026",
+    "excerpt": "Discover the sophisticated process of analyzing systems to create high-level representations. Learn how we bridge the physical and digital worlds."
+  }
 ]
