@@ -1,12 +1,42 @@
 [
-    "Reverse Engineering",
-    "3D Scanning",
-    "CAD Modeling",
-    "Quality Control",
-    "Rapid Prototyping",
-    "Legacy Part Recreation",
-    "Competitive Analysis",
-    "Industrial Design",
-    "Aerospace Engineering",
-    "Automotive Restoration"
+    {
+        "topic": "Reviving the Obsolete: How Reverse Engineering Saves Legacy Machinery",
+        "status": "pending"
+    },
+    {
+        "topic": "From Scan to Solid: Understanding the Precision of 3D Laser Scanning in RE",
+        "status": "pending"
+    },
+    {
+        "topic": "Reverse Engineering for Competitive Benchmarking: A Strategic Guide",
+        "status": "pending"
+    },
+    {
+        "topic": "Modernizing Aerospace Maintenance through Reverse Engineering",
+        "status": "pending"
+    },
+    {
+        "topic": "Optimizing Design: Why RE is More Than Just Copying a Part",
+        "status": "pending"
+    },
+    {
+        "topic": "The Role of Reverse Engineering in the Automotive Aftermarket",
+        "status": "pending"
+    },
+    {
+        "topic": "Reducing Manufacturing Costs with Design for Manufacturability (DFM) in RE",
+        "status": "pending"
+    },
+    {
+        "topic": "Patent Drawings and Intellectual Property: How RE Protects Innovation",
+        "status": "pending"
+    },
+    {
+        "topic": "Bridging the Gap: Integrating Reverse Engineering with 3D Printing",
+        "status": "pending"
+    },
+    {
+        "topic": "Reverse Engineering for Consumer Appliances: Enhancing User Experience",
+        "status": "pending"
+    }
 ]
