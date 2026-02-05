@@ -327,10 +327,12 @@ nav {
 }
 
 /* Blog */
+/* Blog */
 .blog-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     gap: 2.5rem;
+    justify-content: center;
 }
 
 .blog-card {
@@ -338,6 +340,10 @@ nav {
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    height: 100%;
+    /* Ensure full height */
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-card:hover {
@@ -345,7 +351,7 @@ nav {
 }
 
 .blog-img {
-    height: 200px;
+    height: 250px;
     background: #2a2a2a;
     /* Placeholder */
     display: flex;
