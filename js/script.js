@@ -26,14 +26,26 @@ async function loadBlogPosts() {
         posts.forEach(post => {
             const article = document.createElement('article');
             article.className = 'blog-card';
+
+            // Determine image content: use <img> if available, otherwise fallback to icon
+            let imageContent = '';
+            if (post.image) {
+                imageContent = `<img src="${post.image}" alt="${post.title}" class="w-full h-full object-cover">`;
+            } else {
+                imageContent = `<i class="fas fa-cube fa-3x"></i>`;
+            }
+
+            // Determine excerpt: check both 'excerpt' and 'description' fields
+            const excerpt = post.excerpt || post.description || '';
+
             article.innerHTML = `
                 <div class="blog-img">
-                    <i class="fas fa-cube fa-3x"></i> <!-- Placeholder Icon -->
+                    ${imageContent}
                 </div>
                 <div class="blog-content">
                     <span class="blog-date">${post.date}</span>
                     <h3><a href="${post.url}">${post.title}</a></h3>
-                    <p>${post.excerpt}</p>
+                    <p>${excerpt}</p>
                     <a href="${post.url}" class="read-more">Read Article &rarr;</a>
                 </div>
             `;
