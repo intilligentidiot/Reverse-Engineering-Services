@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://intilligentidiot.github.io/Reverse-Engineering-Services/sitemap.xml

@@ -4,7 +4,7 @@
     "url": "posts/reviving-obsolete-reverse-engineering-legacy-machinery-preservation.html",
     "title": "Reviving the Obsolete: The Ultimate Guide to Reverse Engineering in A&E for Legacy Machinery Preservation",
     "description": "Click to read more about Reviving the Obsolete: The Ultimate Guide to Reverse Engineering in A&E for Legacy Machinery Preservation",
-    "image": "images/reviving-obsolete-banner.png",
+    "image": "images/reviving-obsolete-banner.webp",
     "date": "February 6, 2026",
     "tags": [
       "Technology"
@@ -13,7 +13,7 @@
   {
     "title": "Reverse Engineering 101: A Comprehensive Guide",
     "url": "posts/reverse-engineering-101.html",
-    "image": "images/reverse-engineering-banner.png",
+    "image": "images/reverse-engineering-banner.webp",
     "date": "February 5, 2026",
     "excerpt": "Discover the sophisticated process of analyzing systems to create high-level representations. Learn how we bridge the physical and digital worlds."
   }

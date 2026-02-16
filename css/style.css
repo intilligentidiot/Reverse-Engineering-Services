@@ -175,7 +175,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('../images/hero-bg.png') no-repeat center center/cover;
+    background: url('../images/hero-bg.webp') no-repeat center center/cover;
     padding: 0 5%;
     position: relative;
     overflow: hidden;
