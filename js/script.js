@@ -30,9 +30,9 @@ async function loadBlogPosts() {
             // Determine image content: use <img> if available, otherwise fallback to icon
             let imageContent = '';
             if (post.image) {
-                imageContent = `<img src="${post.image}" alt="${post.title}" class="w-full h-full object-cover">`;
+                imageContent = `<img src="${post.image}" alt="${post.title}" title="${post.title}" width="400" height="250" loading="lazy" class="w-full h-full object-cover">`;
             } else {
-                imageContent = `<i class="fas fa-cube fa-3x"></i>`;
+                imageContent = `<i class="fas fa-cube fa-3x" title="Blog Placeholder"></i>`;
             }
 
             // Determine excerpt: check both 'excerpt' and 'description' fields
