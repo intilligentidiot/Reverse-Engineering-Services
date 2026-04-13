@@ -2,22 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/blog.html</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/posts/reverse-engineering-101.html</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/posts/reviving-obsolete-reverse-engineering-legacy-machinery-preservation.html</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-04-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/posts/from-scan-to-solid-precision-3d-laser-scanning-aec.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/posts/from-scan-to-solid-precision-3d-laser-scanning-re.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/posts/from-scan-to-solid-unparalleled-precision-3d-laser-scanning-aec.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://intilligentidiot.github.io/Reverse-Engineering-Services/posts/reviving-obsolete-reverse-engineering-legacy-machinery.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
